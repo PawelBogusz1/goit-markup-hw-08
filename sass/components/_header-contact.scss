@@ -1,0 +1,45 @@
+
+.header-contact{
+    display: flex;
+   justify-content: space-between;
+   gap:30px;
+}
+
+.header-contact__link{
+    fill:var(--brand-color-czcionka1);
+    margin-right: 10px;
+    transition: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+.header-contact__link:hover{
+    fill:var(--color2, #2196f3);
+    stroke: var(--brand-color-czcionka2);
+  
+}
+
+
+.header-contact__linker{
+    color:var(--brand-color-czcionka1);
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 1;
+        letter-spacing: 0.02em;
+        transition: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+.header-contact__linker:focus,
+.header-contact__linker:hover{
+cursor:pointer;
+color:var(--brand-color-czcionka2);
+--color4:var(--brand-color-czcionka2);
+--color2:var(var(--brand-color-czcionka2))
+
+}
+
+
+.header-contact__linker{
+ text-decoration: none;
+}

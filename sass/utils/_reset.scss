@@ -1,0 +1,21 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    color: var(--brand-color);
+ }
+
+ *, *::after, *::before { margin: 0; padding: 0; }
+
+ 
+footer{
+    background-color:var(--brand-color-background);
+    color: var(--brand-color-czcionka3);
+}
+
+
+ul{
+    list-style-type: none;
+}
+
+.border{
+    border: 1px solid #EEEEEE; border-top: none;
+    }

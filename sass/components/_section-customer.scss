@@ -1,0 +1,48 @@
+
+.section-customer__icon{   
+    fill: #AFB1B8;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    transition-property: border-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    
+}
+
+.section-customer__icon:hover,
+.section-customer__icon:focus{
+    border-color: var(--brand-color-background4);
+    
+}
+
+    
+
+.section-customer__icon:hover,
+.section-customer__icon:focus{
+ fill:var(--brand-color-background4);
+  
+}
+
+
+        .section-customer__header{
+        font-size: 36px;
+        line-height: 42px;
+        letter-spacing: 0.03em;
+        }
+
+        
+.section-customer__header{
+    padding-bottom: 50px;
+    padding-top: 94px;
+}
+
+ .section-customer__list{
+     display: flex;
+flex-direction: row;
+list-style: none;
+flex-grow: 1;
+gap:30px;
+padding-bottom: 94px;
+ }
+
+ 

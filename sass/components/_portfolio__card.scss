@@ -1,0 +1,84 @@
+
+.portfolio__card-header{
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.03em;
+        padding: 20px 24px 4px 24px;
+}
+.portfolio__card-desription{
+    color:var(--brand-color-czcionka1);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1,87; 
+        letter-spacing: 0.03em;
+         margin: 0px 24px 20px 24px;
+}
+            .head2{
+        font-size: 36px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        }
+
+  
+.portfolio__card{
+    flex-basis:calc((100% - 60px) / 3);
+    transition: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.portofolio__card-picture{
+    display: block; 
+}
+
+.portfolio__card:hover{
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+
+
+.portofolio__card-box{
+    position: relative;
+  overflow: hidden;
+}
+.portfolio__card{
+    position: relative;
+    overflow: hidden;
+}
+
+.portofolio__card-box:hover .portofolio__card-overlay {
+  transform: translatex(0);
+}
+.portfolio__card:hover .portofolio__card-overlay{
+    transform: translatex(0);
+}
+
+.portofolio__card-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(33, 150, 243, 0.9);
+
+  transform: translateY(100%);
+  transition: transform 250ms ease;
+}
+
+.portofolio__card-overlay > p {
+  color: #fff;
+  margin: 0;
+  padding: 49px;
+  padding-left: 29px;
+  padding-right: 45px;
+  font-size: 18 px;
+  line-height: 28px;
+  font-family: "roboto";
+  font-weight: 400;
+}
+
+
+
+
+
+      

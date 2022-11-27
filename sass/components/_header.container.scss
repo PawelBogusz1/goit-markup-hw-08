@@ -1,0 +1,23 @@
+
+.header-container{
+ 
+  background-color: var(--brand-color-czcionka3);
+     display: flex;
+    align-items: center;
+    justify-content: space-between;
+   margin: 0 auto;
+height: 80px;
+ 
+
+}
+.header-container-portfolio{
+  background-color: var(--brand-color-czcionka3);
+     display: flex;
+    align-items: center;
+    justify-content: space-between;
+   margin: 0 auto;
+height: 80px;
+border-width: 1px;
+border-bottom-style: solid;
+border-color: var(--brand-color-background3);
+}

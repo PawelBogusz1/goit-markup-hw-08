@@ -1,0 +1,92 @@
+
+ .section-team__socialicons__icon{
+    margin: 0.0rem;
+ padding: 0.6rem;
+ Fill: #AFB1B8;
+ transition-property: fill;
+  transition: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  }
+
+  .section-team__socialicons__icon:hover{
+       background: radial-gradient(circle, #2196f3 70%, #ffffff 70%);
+      fill:white;
+      transition-property: fill;
+  transition: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+       
+    }
+
+    
+.section-team__title{
+        font-size: 16px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+        text-align: center;
+         margin-top: 30px;
+         margin-bottom: 10px;
+        
+}
+
+
+        .section-team__header{
+        font-size: 36px;
+        line-height: 42px;
+        letter-spacing: 0.03em;
+        }
+
+
+       .section-team__header{
+            padding-bottom: 50px;
+            padding-top: 94px;
+        }
+
+        
+.section-team__description{
+    color:var(--brand-color-czcionka1);
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.19; 
+        letter-spacing: 0.03em;
+        text-align: center;
+        margin-bottom: 16px;
+}
+
+
+ .section-team__list{
+     display: flex;
+flex-direction: row;
+list-style: none;
+flex-grow: 1;
+gap: 30px;
+align-items: center;
+padding-bottom: 94px;
+}  
+
+.section-team{
+    background-color: var(--brand-color-background2);
+   
+
+}
+
+
+.section-team__picture{
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+background:#ffffff;
+
+}
+
+
+.section-team__socialicons{
+         display: flex;
+flex-direction: row;
+list-style: none;
+flex-grow: 1;
+gap:10px;
+margin:0px 0px 30px 0px;
+padding-left: 32px;
+padding-bottom: 32px;
+
+ }

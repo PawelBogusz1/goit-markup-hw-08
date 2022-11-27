@@ -1,0 +1,56 @@
+
+.section-background__button{
+        font-size: 16px;
+        font-weight: 700;
+         line-height: 1.875; 
+            border: 0px;
+    font-family: inherit;
+    cursor: pointer;
+    color:var(--brand-color-czcionka3);
+    background-color: var(--brand-color-czcionka2);
+    height: 50px;
+    width: 200px;
+    justify-content: center;
+    transition: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  
+ 
+      }
+
+      
+.section-background {
+    color:white;
+background-size: cover;
+background-position: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    max-width: 1600px; margin: 0 auto;
+    background:  linear-gradient(#2F303A66, #2F303A66),url(../images/tlo.jpg);
+background-repeat: repeat-x, no-repeat;
+    
+}
+
+
+.section-background__title{
+        font-size: 44px;
+        font-weight: 900;
+         line-height: 1.36;   
+         padding-bottom: 30px;
+   
+
+}
+.section-background{
+    text-align: center;
+}
+
+
+.section-background__button:hover,
+.section-background__button:focus{
+color:var(--brand-color);
+}
+
+
