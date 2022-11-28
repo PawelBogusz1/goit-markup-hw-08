@@ -4,15 +4,11 @@
 @import "./utils/variables";
 @import "./components/backdrop-data";
 @import "./components/backdrop";
-@import "./components/backdrop__close";
-@import "./components/backdrop__modal";
 @import "./components/container";
 @import "./components/header-contact";
 @import "./components/header-contact";
 @import "./components/header-navigation";
 @import "./components/header.container";
-@import "./components/portfolio-header";
-@import "./components/portfolio__card";
 @import "./components/section-activity";
 @import "./components/section-background";
 @import "./components/section-customer";
@@ -20,7 +16,4 @@
 @import "./components/section-filters";
 @import "./components/section-footer";
 @import "./components/section-team";
-@import "./components/portfolio__list";
-
-
-
+@import "./components/portfolio";

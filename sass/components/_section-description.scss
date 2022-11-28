@@ -4,13 +4,13 @@
 }
 
 
-.section-description__list__icon{
+.section-description__list-icon{
     fill: var(--brand-color-czcionka1);
     background: var(--brand-color-background2);
     padding: 25px 0;
 }
 
-.section-description__list__text-title{
+.section-description__list-title{
         font-size: 14px;
         line-height: 1.14;
         letter-spacing: 0.03em;
@@ -18,7 +18,7 @@
 }
 
 
-.section-description__list__text-details{
+.section-description__list-details{
         font-size: 14px;
         font-weight: 500;
         line-height: 1.71;
@@ -35,7 +35,7 @@ gap:calc((100% - 3 * 30%) / 4);
 }
 
 
-.section-description__list__icon{
+.section-description__list-icon{
     fill: var(--brand-color-czcionka1);
     background: var(--brand-color-background2);
     padding: 25px 0;

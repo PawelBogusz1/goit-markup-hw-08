@@ -27,7 +27,7 @@ color: #757575;
 
 
 
-.backdrop-data__legal-checkbox__button{
+.backdrop-data__legal-button{
  
 border: 1px solid rgba(255, 255, 255, 0.3);
 background-color:var(--brand-color-background4);
@@ -102,7 +102,7 @@ width: 200px;
 
 
     
-.backdrop-data__legal-checkbox__icon{
+.backdrop-data__legal-icon{
      height: 14px;
   width: 14px;
   background-color: var(--white-color);
@@ -113,7 +113,7 @@ width: 200px;
 
 }
 
-.backdrop-data__legal-checkbox{
+.backdrop-data__legal{
          font-family: 'Roboto';
 font-style: normal;
 font-weight: 400;
@@ -124,14 +124,14 @@ color: #757575;
 position:relative;
 }
 
-.backdrop-data__legal-checkbox .backdrop-data__legal-checkbox-checkbox{
+.backdrop-data__legal .backdrop-data__legal-checkbox{
     position: relative;
     width: 16px;
     height: 15px;
    }
 
 
-.backdrop-data__legal-checkbox input{
+.backdrop-data__legal input{
     position:absolute;
     cursor:pointer;
     width: 0;
@@ -139,7 +139,7 @@ position:relative;
     opacity: 0;
     }
 
-    .backdrop-data__legal-checkbox .backdrop-data__legal-checkbox__checkmark{
+    .backdrop-data__legal .backdrop-data__legal-checkmark{
         position: absolute;
         height: 16px;
         width: 15px;
@@ -149,7 +149,7 @@ position:relative;
 
     }
 
-.backdrop-data__legal-checkbox__checkmark::after{
+.backdrop-data__legal-checkmark::after{
     display:block;
 border:0px solid white;
 position:absolute;
@@ -157,11 +157,11 @@ display: none;
 top:-4px;
 }
 
-    .backdrop-data__legal-checkbox input:checked ~ .backdrop-data__legal-checkbox__checkmark::after{
+    .backdrop-data__legal input:checked ~ .backdrop-data__legal-checkmark::after{
         display:block;
     }
 
-     .backdrop-data__legal-checkbox input:checked ~ .backdrop-data__legal-checkbox__checkmark{
+     .backdrop-data__legal input:checked ~ .backdrop-data__legal-checkmark{
         background-color:var(--brand-color-background4);
          transition-property: fill;
   transition: 250ms;
@@ -169,7 +169,7 @@ top:-4px;
      }
 
      
-.backdrop-data__legal-checkbox__link{
+.backdrop-data__legal-link{
     color:var(--brand-color-czcionka2);
 }
 

@@ -1,5 +1,5 @@
 
- .section-footer__social__list{
+ .section-footer__social-list{
          display: flex;
 flex-direction: row;
 list-style: none;
@@ -8,7 +8,7 @@ gap:10px;
 
 
  }
- .section-footer__form__label{
+ .section-footer__form-label{
      display: flex;
 flex-direction:row;
 list-style: none;
@@ -22,7 +22,7 @@ font-size: 14px;
 line-height:16.41px;
  }
 
- .section-footer__form__mail{
+ .section-footer__form-mail{
      display: flex;
 flex-direction:row;
 list-style: none;
@@ -65,7 +65,7 @@ align-items: center;
 }
 
 
-    .section-footer__social__icon{
+    .section-footer__social-icon{
         justify-content:flex-start;
       margin: 0.0rem;
  padding: 0.6rem;
@@ -77,18 +77,18 @@ transition: 250ms;
 
     }
 
-.section-footer__social__icon:hover{
+.section-footer__social-icon:hover{
    background: radial-gradient(circle, #2196f3 70%, var(--brand-color-background)70%);
    fill:white;
 
   }
 
   
-.section-footer__contact__logo1{
+.section-footer__contact-logo1{
     color:var(--brand-color-czcionka2);
 }
 
-    .section-footer__contact__logo2{
+    .section-footer__contact-logo2{
         color:var(--brand-color-czcionka3)
     }
 
@@ -97,7 +97,7 @@ transition: 250ms;
 
 
 
-.section-footer__contact__logo{
+.section-footer__contact-logo{
     display:block;
     padding-bottom: 20px;
     color: var(--brand-color-czcionka2);
@@ -110,7 +110,7 @@ transition: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-        .section-footer__address__linker{
+        .section-footer__address-linker{
     color: rgba(255, 255, 255, 0.6);;
         font-size: 14px;
         font-weight: 400;
@@ -131,7 +131,7 @@ transition: 250ms;
         color:var(--brand-color-czcionka3)
 }
 
-.section-footer__social__header{
+.section-footer__social-header{
     display: block;
     padding-bottom: 20px;
     font-family: Roboto;
@@ -156,16 +156,16 @@ line-height:16.41px;
     margin-left: 70px;
 }
 
-.section-footer__contact__logo:hover,
-.section-footer__address__linker:hover
+.section-footer__contact-logo:hover,
+.section-footer__address-linker:hover
 
 
 {
   color:var(--brand-color-czcionka2);
  
 }
-.section-footer__contact__logo:focus,
-.section-footer__address__linker:focus
+.section-footer__contact-logo:focus,
+.section-footer__address-linker:focus
 {
 
     color:var(--brand-color3);
@@ -173,7 +173,7 @@ line-height:16.41px;
 }
 
 
-.section-footer__contact__logo,
-.section-footer__address__linker{
+.section-footer__contact-logo,
+.section-footer__address-linker{
  text-decoration: none;
 }
