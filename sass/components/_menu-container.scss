@@ -1,0 +1,47 @@
+.d-none {
+  display: none;
+}
+
+.menu-container__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+    z-index: 2;
+
+}
+
+.menu-container__button {
+  background: none;
+  border: none;
+  box-shadow: none;
+
+}
+@media screen and (min-width: 768px) {
+  .menu-container__overlay {
+    display: none;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .menu-container__overlay {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .menu-container__icon {
+    display: none;
+  }
+}
+
+.menu-container__icon {
+  transition: fill $trans;
+display: flex;
+justify-content: right;
+}
+.menu-container__icon:hover,
+.menu-container__icon:focus {
+  fill: $accentC;
+}
