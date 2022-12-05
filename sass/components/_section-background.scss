@@ -48,8 +48,7 @@
       background: linear-gradient(#2f303a66, #2f303a66),
         url(../images/mobile/Header_img_mobile_x1.jpg);
       background-repeat: repeat-x, no-repeat;
-    
-   @media screen and (max-width: 767px) {
+  
     
     @media (min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
@@ -61,7 +60,7 @@
         background-size: cover;
         background-position: center;
     }
-    }
+    
         @media screen and (min-width: 768px) {
             background-image: linear-gradient(rgba(47, 48, 58, 0.4),
                         rgba(47, 48, 58, 0.4)),
@@ -104,8 +103,6 @@
             }
         }
  }
-  //@media screen and(min-width:768px) and (max-width:1199px)
-  
-  //@media screen and(min-width:1200px)
+
 
  

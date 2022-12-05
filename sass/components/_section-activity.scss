@@ -1,6 +1,9 @@
 
 .section-activity{
-    padding-bottom: 94px;
+    // padding-top: 94px;
+    // padding-bottom: 94px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
  .section-activity__header {font-size: 36px;
@@ -42,3 +45,95 @@ align-items:center;
   font-weight: 700;
   color:var(--brand-color-czcionka3);
  }
+
+
+ .feature {
+    // padding-top: 94px;
+    // padding-bottom: 94px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    
+}
+
+.feature__list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: -30px;
+    @media screen and (min-width: 768px) {
+            margin-left: -30px;
+        }
+}
+.feature__item {
+    // display: block;
+    // width: 270px;
+    // margin-right: 30px;
+    margin-bottom: 30px;
+    @media screen and (min-width: 768px) {
+            margin-left: 30px;
+            width: calc(100%/2 - 30px);
+        }
+    @media screen and (min-width: 1200px) {
+            width: calc(100%/4 - 30px);
+            margin-bottom: 0;
+        }
+    // &::before {
+    //         content: '';
+    //         display: block;
+    //         // width: 270px;
+    //         height: 120px;
+    //         margin-bottom: 30px;
+    //         background-color: #F5F4FA;
+    //         background-repeat: no-repeat;
+    //         background-position: center;
+    //     }
+}
+.feature__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 450px;
+    height: 120px;
+    margin-bottom: 30px;
+    background-color: #F5F4FA;
+    
+}
+.feature__title {
+    font-weight: 700;
+    font-size: var(--main-text-size);
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--second-title-color);
+    margin-top: 0px;
+    margin-bottom: 10px;
+    text-align: center;
+    @media screen and (min-width: 768px) {
+            text-align: left;
+    }
+}
+
+// .feature__antenna::before {
+//     background-image: url('../images/features/antenna.svg');
+// }
+
+// .feature__clock::before {
+//     background-image: url('../images/features/clock.svg');
+// }
+
+// .feature__vector::before {
+//     background-image: url('../images/features/diagram.svg');
+// }
+
+// .feature__austronaut::before {
+//     background-image: url('../images/features/astronaut.svg');
+// }
+
+.feature__item:last-child {
+    margin-right: 0px;
+}
+
+.feature__text {
+    line-height: 1.71;
+    // max-width: 270px;
+    margin-top: 0px;
+    
+}

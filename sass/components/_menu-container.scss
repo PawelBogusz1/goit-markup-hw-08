@@ -49,7 +49,7 @@
 }
 
 .menu-container__icon {
-  transition: fill $trans;
+  transition: $trans;
   display: flex;
   justify-content: right;
 }
