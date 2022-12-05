@@ -49,11 +49,10 @@
 }
 
 .menu-container__icon {
-  transition: $trans;
   display: flex;
   justify-content: right;
 }
 .menu-container__icon:hover,
 .menu-container__icon:focus {
-  fill: $accentC;
+  fill: #2196F3;
 }
