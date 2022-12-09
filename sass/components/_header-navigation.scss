@@ -121,3 +121,15 @@ position: relative;
 .header-navigation__item-card3{
  text-decoration: none;
 }
+@media screen and (min-width: 768px) {
+.menu-container__button-open{
+    visibility: hidden;
+  }
+
+}
+@media screen and (max-width: 767px) {
+.header-navigation__item,
+.header-contact{
+    visibility: hidden;
+}
+}
