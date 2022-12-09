@@ -130,6 +130,9 @@ position: relative;
 @media screen and (max-width: 767px) {
 .header-navigation__item,
 .header-contact{
-    visibility: hidden;
+   display:none;
 }
+}
+.menu-container__icon{
+    border: none;
 }
