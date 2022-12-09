@@ -28,9 +28,6 @@
   font-size: 36px;
   line-height: 42px;
   letter-spacing: 0.03em;
-}
-
-.section-team__header {
   padding-bottom: 50px;
   padding-top: 94px;
 }
@@ -98,7 +95,7 @@
     justify-content: center;
     display: flex;
     margin-bottom: 30px;
-    max-width: 354px;
+   width:100vw;
     flex-basis: calc((100% - 60px) / 2);
   }
 }
