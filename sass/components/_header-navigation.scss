@@ -108,10 +108,13 @@ position: relative;
 .header-navigation__logo:hover,
 .header-navigation__item-card1:hover,
 .header-navigation__item-card2:hover,
-.header-navigation__item-card3:hover{
+.header-navigation__item-card3:hover,
+.header-navigation__logo:focus,
+.header-navigation__item-card1:focus,
+.header-navigation__item-card2:focus,
+.header-navigation__item-card3:focus{
 
-    color:var(--brand-color3);
-
+     color: var(--brand-color-czcionka2);
 }
 
 

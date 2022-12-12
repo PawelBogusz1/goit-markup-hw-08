@@ -1,6 +1,6 @@
 .header-contact {
   display: flex;
-  justify-content: space-between;
+  justify-content:center;
   gap: 30px;
 }
 
@@ -36,4 +36,23 @@
 
 .header-contact__linker {
   text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+.header-contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  padding-top: 21px;
+}}
+
+@media screen and (min-width: 1200px) {
+  .header-contact{
+    display: flex;
+  flex-direction: row;
+  justify-content:center;
+  gap: 30px;
+  padding-top:22px;
+}
 }

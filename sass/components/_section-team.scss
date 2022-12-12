@@ -43,14 +43,11 @@
 }
 
 .section-team__list {
-  display: block;
-  flex-direction: column;
-  list-style: none;
-  flex-grow: 1;
-  gap: 30px;
-  align-items: center;
-  padding-bottom: 94px;
-  margin-left: -30px;
+    display: block;
+    gap: 30px;
+    list-style: none;
+    background-color: #f5f4fa;
+    padding-bottom: 0px;
 }
 
 .section-team {
@@ -58,11 +55,13 @@
 }
 
 .section-team__picture {
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
-  background: #ffffff;
-  width: 450px;
+  display: flex;
+      flex-direction: column;
+      background-color: #ffffff;
+      box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
+      border-radius: 0px 0px 4px 4px;
+      margin-top: 30px;
 }
 
   .section-team__socialicons {
@@ -77,15 +76,11 @@
 
 @media screen and (min-width: 768px) {
   .section-team__list {
-    display: flex;
-    flex-wrap: wrap;
+   display: flex;
     flex-direction: row;
-    list-style: none;
-    flex-grow: 1;
-    gap: 30px;
-    justify-content: center;
-    padding-bottom: 94px;
-    margin-left: -30px;
+    flex-wrap: wrap;
+    background-color: #f5f4fa;
+    gap: 30;
   }
   .section-team__socialicons {
     display: flex;
@@ -98,11 +93,7 @@
   }
 
   .section-team__picture {
-    flex-direction: column;
-    justify-content: center;
-    display: flex;
-   width:100vw;
-    flex-basis: calc((100% - 60px) / 2);
+   flex-basis: calc((100% - 30px) / 2);
   }
 }
 
@@ -110,22 +101,11 @@
   .section-team__list {
     display: flex;
     flex-wrap: nowrap;
-    flex-direction: row;
-    list-style: none;
-    flex-grow: 1;
-    gap: 30px;
-    align-items: center;
-    padding-bottom: 94px;
-    width: 100%;
+    background-color: #f5f4fa;
   }
 
   .section-team__picture {
-    flex-direction: column;
-    display: flex;
-    margin-left: 30px;
-    width: calc((100% - 30px) / 4);
-    margin-left: 30px;
-    width: 270px;
+flex-basis: calc((100% - 90px) / 4);
   }
   .section-team__socialicons-icon {
     margin: 0rem;
