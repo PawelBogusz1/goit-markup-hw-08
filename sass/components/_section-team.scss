@@ -15,6 +15,11 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.section-team__element{
+  width:100%;
+  
+}
+
 .section-team__title {
   font-size: 16px;
   line-height: 1.19;
@@ -62,6 +67,7 @@
         0px 2px 1px rgba(0, 0, 0, 0.2);
       border-radius: 0px 0px 4px 4px;
       margin-top: 30px;
+    width:100vw;
 }
 
   .section-team__socialicons {
