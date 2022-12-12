@@ -6,12 +6,20 @@ footer {
   display: flex;
   flex-direction: column;
   text-align: center;
+
 }
 .section-footer__contact {
   display: flex;
   flex-direction: column;
   align-items: center;
+    padding-top: 60px;
 }
+
+  .section-footer__form {
+    padding-top: 60px;
+
+  }
+  
 .section-footer__contact-logo1 {
   color: var(--brand-color-czcionka2);
 }
@@ -160,9 +168,9 @@ footer {
 
 @media screen and (min-width: 768px) {
   .section-footer {
-    display: flex;
+       display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     gap: 0 50px;
     text-align: center;
     flex-wrap: wrap;
@@ -174,6 +182,7 @@ footer {
     flex-direction: column;
     align-items: center;
   }
+  
 }
 
 // DESKTOP
@@ -183,17 +192,41 @@ footer {
     background-color: #2f303a;
     padding-bottom: 60px;
   }
-  .section-footer {
+ .section-footer {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
   }
+
+  .section-footer__contact {
+  display: block;
+  text-align: left;
+  
+
+  .section-footer__street{
+     display: block;
+  text-align: left;
+  }
+  .section-footer__address-linker{
+     display: block;
+  text-align: left;
+  
+  }
+
+  }
   .section-footer__form {
     padding-top: 60px;
+    margin-left: 68px;
   }
+
+  .section-footer__social{
+    padding-left: 70px;
+  }
+
   .section-footer__form-list{
     display: flex;
     flex-direction:row;
+    width:561px;
     gap:12px;
   }
 .section-footer__form-label {
