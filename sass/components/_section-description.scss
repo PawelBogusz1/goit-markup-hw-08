@@ -18,10 +18,7 @@
     fill: var(--brand-color-czcionka1);
     background: var(--brand-color-background2);
     margin-top: 25px;
-
-
-
-  
+ 
 
 }
 
@@ -44,7 +41,6 @@
         line-height: 1.71;
         letter-spacing: 0.03em;
         color: var(--brand-color-czcionka1);
-        max-width: 450px;
         margin-left: 15px;
         display: flex;
         justify-content: center;
@@ -75,29 +71,30 @@
   }
 .section-description__list-details{
   height: 120px;
+
 }
 
 .section-description__list{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-     flex-wrap: wrap;  
-list-style:none;
-text-align: left;
+  display: flex;
+        justify-content: center;
+     flex-wrap: wrap;
+flex-direction: row;
+list-style: none;
+flex-grow: 1;
+gap:30px;
 width: 100%;
          
     
   }
 
   .section-description__list-icons{
-    width:100%;
+ 
    flex-basis: calc((100% - 30px) / 2);
   
   }
   .section-description__list-details{
 
   justify-content: left;
-  width: 354px;
   margin-left: 15px;
 
 
