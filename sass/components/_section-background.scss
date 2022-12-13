@@ -20,10 +20,11 @@
 
   
   .section-background__title {
-    font-size: 44px;
+    font-size: 26px;
     font-weight: 900;
-    line-height: 1.36;
+    line-height: 42px;
     padding-bottom: 30px;
+  
   }
   .section-background {
     text-align: center;
@@ -100,7 +101,12 @@
                 background-repeat: no-repeat;
                 background-size: cover;
                 background-position: center;
-            }
+            }}
+              .section-background__title {
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 60px;
+    padding-bottom: 30px;
         }
  }
 

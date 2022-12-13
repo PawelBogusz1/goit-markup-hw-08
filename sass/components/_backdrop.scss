@@ -33,10 +33,13 @@
     top:50%;
     left:50%;
     transform:translate(-50%,-50%);
-    width:528px;
     height:581px;
     background-color: #fff;
-    margin:auto
+    margin:auto;
+    width: 100%; 
+    max-width: 585px; 
+    height: auto; 
+    padding-bottom: 30px;
 
 }
 @media screen and (min-width: 1200px) {
