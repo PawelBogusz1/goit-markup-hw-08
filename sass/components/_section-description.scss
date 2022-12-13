@@ -62,7 +62,7 @@
     visibility:hidden;
 }
 .section-description__list-icons{
-   flex-basis: calc(100% / 2 - 30px);
+   flex-basis: calc((100% - 30px) / 2);
 }
 
    
@@ -93,7 +93,7 @@ gap:30px;
 
   .section-description__list-icons{
     width:100%;
-    flex-basis: calc(100% / 2 - 30px);
+   flex-basis: calc((100% - 30px) / 3);
   
   }
   .section-description__list-details{
